@@ -1,22 +1,18 @@
-#include <stdio.h>
-#include <ctype.h>
+#include <studio.h>
+#include <stdlib.h>
 /**
- * main - Entry point
- *
- * Description: program to print all alphabets in lowercase
- *
- * Return: Always 0 (success)
+ *main - main block
+ *Description: Get a random number and check its last digit' compare it with 5
+ *Return: 0
  */
-
 int main(void)
 {
-int i = 97; 
-while (i < 123)
+char c = 'a';
+while (c <= 'z')
 {
-putchar(i);
-i++;
+putchar(c);
+c++;
 }
-putchar(10);
-return (0)
+putchar('\n');
+return (0);
 }
-
