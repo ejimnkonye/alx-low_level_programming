@@ -12,7 +12,7 @@ putchar (i + '0');
 }
 for (y = 'a'; y <= 'f'; y++)
 {
-âˆputchar (y);
+putchar (y);
 }
 putchar('\n');
 return (0);
