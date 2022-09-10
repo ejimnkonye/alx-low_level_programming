@@ -1,23 +1,20 @@
 #include <stdio.h>
 /**
- *main - Entry point
- *Description: Program that prints alphabets except e and q
- * Return: Always (0)
+ *main - main block
+ *Description: Get a random number and check its last digit, compare it with 5
+ *Return: 0
  */
 int main(void)
 {
-	int i = 97;
-
-	while (i < 123)
-	{
-	   if (i != 101 && i != 113)
-	   {
-	      putchar(i);
-
-	   }
-	   i++
-        }
-	putchar(10);
-	return(0);
+char c = 'a';
+while (c <= 'z')
+{
+if (c != 'e' && c != 'q:)
+{
+putchar(c);
 }
-
+c++;
+}
+putchar('\n');
+return (0);
+}
