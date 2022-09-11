@@ -1,9 +1,9 @@
 #include <stdio.h>
-#include <stdlib.h>
+
 /**
  *main - Print numbers between 012 to 789
  *
- *Return: 0
+ *Return: Always 0 (Success)
  */
 int main(void)
 {
