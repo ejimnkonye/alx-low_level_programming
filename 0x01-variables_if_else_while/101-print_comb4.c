@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *main - main block
- *Description: Prints numbers between 012 to 789
+ *main - Print numbers between 012 to 789
+ *
  *Return: 0
  */
 int main(void)
