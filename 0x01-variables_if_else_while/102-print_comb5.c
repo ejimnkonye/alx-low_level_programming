@@ -31,8 +31,8 @@ putchar(e);
 putchar(i);
 if (h == 57 && g == 56 && e == 57 && i == 57)
 break;
-putchar(',')
-putchar(' ')
+putchar(',');
+putchar(' ');
 }
 i++;
 }
@@ -42,7 +42,7 @@ g++;
 }
 h++;
 }
-putchar('\n);
+putchar('\n');
 return (0);
 }
 
