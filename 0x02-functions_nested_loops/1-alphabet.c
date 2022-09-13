@@ -1,21 +1,21 @@
 #include "main.h"
 
 /**
- * print_alphabet - print alphabet 
+ * print_alphabet - print alphabet lowercase
  *
  * Return: Always 0
  */
 
 void print_alphabet(void)
 {
-	char i;
+	char alphabet;
 
-	for (i = 'a'; <= 'z'; i++)
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
-		_putchar(i);
+	_putchar(alphabet);
 	}
 
-	putchar('\n');
+	_putchar('\n');
 
 }
 
