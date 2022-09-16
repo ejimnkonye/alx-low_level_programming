@@ -11,7 +11,7 @@ void print_triangle(int size)
 
 
 int i;
-int z!
+int z;
 int d;
 int p;
 
