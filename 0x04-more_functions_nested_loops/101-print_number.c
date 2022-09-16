@@ -23,7 +23,7 @@ count = 1;
 
 while (j > 9)
 {
-j /= 10
+j /= 10;
 count *= 10;
 }
 
