@@ -26,6 +26,8 @@ _putchar ('\n');
 
 else
 {
+_putchar (35);
+}
 _putchar ('\n');
 }
 
