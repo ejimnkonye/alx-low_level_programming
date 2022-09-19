@@ -2,7 +2,6 @@
 /**
  * rev_string - prints a reverse string
  *@s: A pointer to an int that will be changed
- * 
  *Return: void
  */
 
@@ -23,7 +22,7 @@ start_c = s;
 end_c = s;
 
 
-for (i = 0; i < count -1; i++)
+for (i = 0; i < count - 1; i++)
 {
 end_c++;
 }
